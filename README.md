@@ -1,21 +1,20 @@
-bugfreejs
+bugfreecoffee
 =========
 
 佛祖保佑，永无bug
 
-自动在JS头部加上神注释，默认支持utf8和GBK编码的js文件。
+自动在 CoffeeSripte 头部加上神注释，默认支持utf8和GBK编码的js文件。
 
-![](http://gtms04.alicdn.com/tps/i4/TB1sXuyGXXXXXaPXXXXk3aW_VXX-800-668.jpg_600x600q90.jpg)
-
+![image](https://cloud.githubusercontent.com/assets/1559832/5222844/4ba9242a-76e2-11e4-981d-8b79c751702f.png)
 
 ## 安装
 * 需要nodeJS环境和sudo权限。
-* ``sudo npm install -g bugfreejs``
+* ``sudo npm install -g bugfreecoffee``
 
 ## 使用
-* 单文件 ``bugfreejs myfile.js``
-* 多文件 ``bugfreejs fileA.js fileB.js fileC.js``
-* 目录下所有js文件 ``bugfreejs dir/``
+* 单文件 ``bugfreecoffee myfile.js``
+* 多文件 ``bugfreecoffee fileA.js fileB.js fileC.js``
+* 目录下所有 coffee 文件 ``bugfreecoffee dir/``
 
 
 ## 其他
@@ -25,5 +24,6 @@ bugfreejs
 
 
 ## 致谢
+* 特别感谢[Otto Mao 的 bugfreejs](https://github.com/ottomao/bugfreejs)
 * 特别感谢[刘同学](https://github.com/liugb1989)临摹的跨字符集佛像一尊。
 
